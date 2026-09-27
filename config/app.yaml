@@ -1,0 +1,6 @@
+env: test
+service:
+  baseUrl: https://apps.qualiadept.eu/hapi/tyme
+timeouts:
+  connectMillis: 5000
+  readMillis: 10000

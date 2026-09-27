@@ -1,0 +1,15 @@
+Test: GET /todos/1
+
+Arrange:
+  Setează URL-ul la https://jsonplaceholder.typicode.com/todos/1.
+  Pregătește un request HTTP GET și acceptă un răspuns JSON.
+
+Act:
+  Trimite request-ul GET și păstrează codul de răspuns și corpul JSON.
+
+Assert:
+  Verifică faptul că statusul HTTP este 200.
+  Citește corpul ca JSON.
+  Verifică faptul că există cheia "title" și că valoarea sa este un text nevid.
+
+Notă: acesta este pseudocod; Maven nu îl execută ca test Java.
